@@ -1,0 +1,42 @@
+running egg_info
+creating ../../build/sensor_py_pkg/sensor_py_pkg.egg-info
+writing ../../build/sensor_py_pkg/sensor_py_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/sensor_py_pkg/sensor_py_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/sensor_py_pkg/sensor_py_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/sensor_py_pkg/sensor_py_pkg.egg-info/requires.txt
+writing top-level names to ../../build/sensor_py_pkg/sensor_py_pkg.egg-info/top_level.txt
+writing manifest file '../../build/sensor_py_pkg/sensor_py_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../build/sensor_py_pkg/sensor_py_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/sensor_py_pkg/sensor_py_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/vd/my_ws/build/sensor_py_pkg/build
+creating /home/vd/my_ws/build/sensor_py_pkg/build/lib
+creating /home/vd/my_ws/build/sensor_py_pkg/build/lib/sensor_py_pkg
+copying sensor_py_pkg/msgsub.py -> /home/vd/my_ws/build/sensor_py_pkg/build/lib/sensor_py_pkg
+copying sensor_py_pkg/msgpub.py -> /home/vd/my_ws/build/sensor_py_pkg/build/lib/sensor_py_pkg
+copying sensor_py_pkg/__init__.py -> /home/vd/my_ws/build/sensor_py_pkg/build/lib/sensor_py_pkg
+copying sensor_py_pkg/Untitled-1.py -> /home/vd/my_ws/build/sensor_py_pkg/build/lib/sensor_py_pkg
+running install
+running install_lib
+creating /home/vd/my_ws/install/sensor_py_pkg/lib/python3.10/site-packages/sensor_py_pkg
+copying /home/vd/my_ws/build/sensor_py_pkg/build/lib/sensor_py_pkg/msgsub.py -> /home/vd/my_ws/install/sensor_py_pkg/lib/python3.10/site-packages/sensor_py_pkg
+copying /home/vd/my_ws/build/sensor_py_pkg/build/lib/sensor_py_pkg/msgpub.py -> /home/vd/my_ws/install/sensor_py_pkg/lib/python3.10/site-packages/sensor_py_pkg
+copying /home/vd/my_ws/build/sensor_py_pkg/build/lib/sensor_py_pkg/__init__.py -> /home/vd/my_ws/install/sensor_py_pkg/lib/python3.10/site-packages/sensor_py_pkg
+copying /home/vd/my_ws/build/sensor_py_pkg/build/lib/sensor_py_pkg/Untitled-1.py -> /home/vd/my_ws/install/sensor_py_pkg/lib/python3.10/site-packages/sensor_py_pkg
+byte-compiling /home/vd/my_ws/install/sensor_py_pkg/lib/python3.10/site-packages/sensor_py_pkg/msgsub.py to msgsub.cpython-310.pyc
+byte-compiling /home/vd/my_ws/install/sensor_py_pkg/lib/python3.10/site-packages/sensor_py_pkg/msgpub.py to msgpub.cpython-310.pyc
+byte-compiling /home/vd/my_ws/install/sensor_py_pkg/lib/python3.10/site-packages/sensor_py_pkg/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/vd/my_ws/install/sensor_py_pkg/lib/python3.10/site-packages/sensor_py_pkg/Untitled-1.py to Untitled-1.cpython-310.pyc
+running install_data
+creating /home/vd/my_ws/install/sensor_py_pkg/share/ament_index
+creating /home/vd/my_ws/install/sensor_py_pkg/share/ament_index/resource_index
+creating /home/vd/my_ws/install/sensor_py_pkg/share/ament_index/resource_index/packages
+copying resource/sensor_py_pkg -> /home/vd/my_ws/install/sensor_py_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/vd/my_ws/install/sensor_py_pkg/share/sensor_py_pkg
+running install_egg_info
+Copying ../../build/sensor_py_pkg/sensor_py_pkg.egg-info to /home/vd/my_ws/install/sensor_py_pkg/lib/python3.10/site-packages/sensor_py_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing msgpublisher script to /home/vd/my_ws/install/sensor_py_pkg/lib/sensor_py_pkg
+Installing msgsubscriber script to /home/vd/my_ws/install/sensor_py_pkg/lib/sensor_py_pkg
+writing list of installed files to '/home/vd/my_ws/build/sensor_py_pkg/install.log'

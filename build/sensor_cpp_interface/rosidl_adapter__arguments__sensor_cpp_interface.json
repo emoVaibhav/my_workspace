@@ -1,0 +1,8 @@
+{
+  "package_name": "sensor_cpp_interface",
+  "non_idl_tuples": [
+    "/home/vd/my_ws/src/sensor_cpp_interface:msg/SensorData.msg",
+    "/home/vd/my_ws/src/sensor_cpp_interface:srv/Addition.srv",
+    "/home/vd/my_ws/src/sensor_cpp_interface:action/Fib.action"
+  ]
+}

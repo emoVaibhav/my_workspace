@@ -1,0 +1,23 @@
+[0.845s] Invoking command in '/home/vd/my_ws/src/py_srvcli': AMENT_PREFIX_PATH=/home/vd/my_ws/install/sensor_cpp_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vd/my_ws/install/sensor_cpp_interface:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/vd/my_ws/install/sensor_cpp_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vd/my_ws/build/py_srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vd/my_ws/install/py_srvcli/lib/python3.10/site-packages:/home/vd/my_ws/install/sensor_cpp_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/vd/my_ws/build/py_srvcli/build install --record /home/vd/my_ws/build/py_srvcli/install.log --single-version-externally-managed install_data
+[1.021s] running egg_info
+[1.021s] writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[1.027s] writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[1.027s] writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[1.027s] writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[1.027s] writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[1.029s] reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[1.029s] adding license file 'LICENSE'
+[1.030s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[1.030s] running build
+[1.030s] running build_py
+[1.031s] running install
+[1.031s] running install_lib
+[1.033s] running install_data
+[1.034s] running install_egg_info
+[1.036s] removing '/home/vd/my_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info' (and everything under it)
+[1.036s] Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/vd/my_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info
+[1.037s] running install_scripts
+[1.052s] Installing client script to /home/vd/my_ws/install/py_srvcli/lib/py_srvcli
+[1.053s] Installing server script to /home/vd/my_ws/install/py_srvcli/lib/py_srvcli
+[1.053s] writing list of installed files to '/home/vd/my_ws/build/py_srvcli/install.log'
+[1.088s] Invoked command in '/home/vd/my_ws/src/py_srvcli' returned '0': AMENT_PREFIX_PATH=/home/vd/my_ws/install/sensor_cpp_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vd/my_ws/install/sensor_cpp_interface:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/vd/my_ws/install/sensor_cpp_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vd/my_ws/build/py_srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vd/my_ws/install/py_srvcli/lib/python3.10/site-packages:/home/vd/my_ws/install/sensor_cpp_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/vd/my_ws/build/py_srvcli/build install --record /home/vd/my_ws/build/py_srvcli/install.log --single-version-externally-managed install_data

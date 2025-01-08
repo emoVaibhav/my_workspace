@@ -1,0 +1,44 @@
+[0.699s] Invoking command in '/home/vd/my_ws/src/sensor_py_pkg': PYTHONPATH=/home/vd/my_ws/build/sensor_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vd/my_ws/install/sensor_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensor_py_pkg build --build-base /home/vd/my_ws/build/sensor_py_pkg/build install --record /home/vd/my_ws/build/sensor_py_pkg/install.log --single-version-externally-managed install_data
+[0.878s] running egg_info
+[0.878s] creating ../../build/sensor_py_pkg/sensor_py_pkg.egg-info
+[0.878s] writing ../../build/sensor_py_pkg/sensor_py_pkg.egg-info/PKG-INFO
+[0.879s] writing dependency_links to ../../build/sensor_py_pkg/sensor_py_pkg.egg-info/dependency_links.txt
+[0.879s] writing entry points to ../../build/sensor_py_pkg/sensor_py_pkg.egg-info/entry_points.txt
+[0.879s] writing requirements to ../../build/sensor_py_pkg/sensor_py_pkg.egg-info/requires.txt
+[0.879s] writing top-level names to ../../build/sensor_py_pkg/sensor_py_pkg.egg-info/top_level.txt
+[0.879s] writing manifest file '../../build/sensor_py_pkg/sensor_py_pkg.egg-info/SOURCES.txt'
+[0.881s] reading manifest file '../../build/sensor_py_pkg/sensor_py_pkg.egg-info/SOURCES.txt'
+[0.882s] writing manifest file '../../build/sensor_py_pkg/sensor_py_pkg.egg-info/SOURCES.txt'
+[0.882s] running build
+[0.882s] running build_py
+[0.882s] creating /home/vd/my_ws/build/sensor_py_pkg/build
+[0.882s] creating /home/vd/my_ws/build/sensor_py_pkg/build/lib
+[0.882s] creating /home/vd/my_ws/build/sensor_py_pkg/build/lib/sensor_py_pkg
+[0.882s] copying sensor_py_pkg/msgsub.py -> /home/vd/my_ws/build/sensor_py_pkg/build/lib/sensor_py_pkg
+[0.882s] copying sensor_py_pkg/msgpub.py -> /home/vd/my_ws/build/sensor_py_pkg/build/lib/sensor_py_pkg
+[0.882s] copying sensor_py_pkg/__init__.py -> /home/vd/my_ws/build/sensor_py_pkg/build/lib/sensor_py_pkg
+[0.882s] copying sensor_py_pkg/Untitled-1.py -> /home/vd/my_ws/build/sensor_py_pkg/build/lib/sensor_py_pkg
+[0.883s] running install
+[0.883s] running install_lib
+[0.883s] creating /home/vd/my_ws/install/sensor_py_pkg/lib/python3.10/site-packages/sensor_py_pkg
+[0.884s] copying /home/vd/my_ws/build/sensor_py_pkg/build/lib/sensor_py_pkg/msgsub.py -> /home/vd/my_ws/install/sensor_py_pkg/lib/python3.10/site-packages/sensor_py_pkg
+[0.884s] copying /home/vd/my_ws/build/sensor_py_pkg/build/lib/sensor_py_pkg/msgpub.py -> /home/vd/my_ws/install/sensor_py_pkg/lib/python3.10/site-packages/sensor_py_pkg
+[0.884s] copying /home/vd/my_ws/build/sensor_py_pkg/build/lib/sensor_py_pkg/__init__.py -> /home/vd/my_ws/install/sensor_py_pkg/lib/python3.10/site-packages/sensor_py_pkg
+[0.884s] copying /home/vd/my_ws/build/sensor_py_pkg/build/lib/sensor_py_pkg/Untitled-1.py -> /home/vd/my_ws/install/sensor_py_pkg/lib/python3.10/site-packages/sensor_py_pkg
+[0.884s] byte-compiling /home/vd/my_ws/install/sensor_py_pkg/lib/python3.10/site-packages/sensor_py_pkg/msgsub.py to msgsub.cpython-310.pyc
+[0.884s] byte-compiling /home/vd/my_ws/install/sensor_py_pkg/lib/python3.10/site-packages/sensor_py_pkg/msgpub.py to msgpub.cpython-310.pyc
+[0.885s] byte-compiling /home/vd/my_ws/install/sensor_py_pkg/lib/python3.10/site-packages/sensor_py_pkg/__init__.py to __init__.cpython-310.pyc
+[0.885s] byte-compiling /home/vd/my_ws/install/sensor_py_pkg/lib/python3.10/site-packages/sensor_py_pkg/Untitled-1.py to Untitled-1.cpython-310.pyc
+[0.885s] running install_data
+[0.885s] creating /home/vd/my_ws/install/sensor_py_pkg/share/ament_index
+[0.885s] creating /home/vd/my_ws/install/sensor_py_pkg/share/ament_index/resource_index
+[0.886s] creating /home/vd/my_ws/install/sensor_py_pkg/share/ament_index/resource_index/packages
+[0.886s] copying resource/sensor_py_pkg -> /home/vd/my_ws/install/sensor_py_pkg/share/ament_index/resource_index/packages
+[0.886s] copying package.xml -> /home/vd/my_ws/install/sensor_py_pkg/share/sensor_py_pkg
+[0.886s] running install_egg_info
+[0.887s] Copying ../../build/sensor_py_pkg/sensor_py_pkg.egg-info to /home/vd/my_ws/install/sensor_py_pkg/lib/python3.10/site-packages/sensor_py_pkg-0.0.0-py3.10.egg-info
+[0.888s] running install_scripts
+[0.903s] Installing msgpublisher script to /home/vd/my_ws/install/sensor_py_pkg/lib/sensor_py_pkg
+[0.903s] Installing msgsubscriber script to /home/vd/my_ws/install/sensor_py_pkg/lib/sensor_py_pkg
+[0.903s] writing list of installed files to '/home/vd/my_ws/build/sensor_py_pkg/install.log'
+[0.942s] Invoked command in '/home/vd/my_ws/src/sensor_py_pkg' returned '0': PYTHONPATH=/home/vd/my_ws/build/sensor_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vd/my_ws/install/sensor_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensor_py_pkg build --build-base /home/vd/my_ws/build/sensor_py_pkg/build install --record /home/vd/my_ws/build/sensor_py_pkg/install.log --single-version-externally-managed install_data

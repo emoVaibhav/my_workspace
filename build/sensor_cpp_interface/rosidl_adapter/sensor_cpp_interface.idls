@@ -1,0 +1,3 @@
+/home/vd/my_ws/build/sensor_cpp_interface/rosidl_adapter/sensor_cpp_interface:msg/SensorData.idl
+/home/vd/my_ws/build/sensor_cpp_interface/rosidl_adapter/sensor_cpp_interface:srv/Addition.idl
+/home/vd/my_ws/build/sensor_cpp_interface/rosidl_adapter/sensor_cpp_interface:action/Fib.idl

@@ -1,0 +1,4 @@
+[console_scripts]
+msgpublisher = sensor_py_pkg.msgpub:main
+msgsubscriber = sensor_py_pkg.msgsub:main
+

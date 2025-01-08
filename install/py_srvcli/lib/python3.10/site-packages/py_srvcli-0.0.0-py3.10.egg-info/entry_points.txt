@@ -1,0 +1,6 @@
+[console_scripts]
+Act_Client = py_srvcli.ActionClient:main
+Act_Server = py_srvcli.ActionServer:main
+client = py_srvcli.client_node:main
+server = py_srvcli.service_node:main
+

@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<robot name = "my_tower">
+
+<material name = "green">
+    <color rgba = "0 1 0 1"/>
+</material>
+
+<material name = "grey">
+    <color rgba = "0.7 0.7 0.7 1" />
+</material>
+
+<link name = "cyl_1">
+    <visual>
+        <geometry>
+          <cylinder radius = "0.1" length = "0.75"/>
+        </geometry>
+        <origin xyz = "0.675 0 0.85" rpy = "0 1.57 0"/>
+        <material name = "green"/>
+    </visual>
+</link>
+<link name = "cyl_2">
+    <visual>
+        <geometry>
+            <cylinder radius = "0.3" length = "1" />
+        </geometry>
+        <origin xyz = "0 0 0.5" rpy = " 0 0 0"/>
+    </visual>
+</link>
+<link name = "cyl_3">
+    <visual>
+        <geometry>
+          <cylinder radius = "0.1" length = "0.8"/>
+        </geometry>
+        <origin xyz = "1.1 0 0" rpy = "0 0 0"/>
+        <material name = "grey"/>
+    </visual>
+</link>
+<link name="sphere1">
+    <visual>
+        <geometry>
+        <sphere radius="0.2"/>
+        </geometry>
+        <origin xyz="1.1 0 0.55"/>
+    </visual>
+</link>
+
+<link name="sphere2">
+    <visual>
+        <geometry>
+        <sphere radius="0.2"/>
+        </geometry>
+        <origin xyz="1.1 0 -0.55"/>
+    </visual>
+</link>
+
+<joint name = "cyl_1_2_fix" type = "fixed">
+    <parent link = "cyl_2"/>
+    <child link = "cyl_1"/>
+    <origin xyz = "0 0 0" rpy = "0 0 0"/>
+</joint>
+<joint name = "cyl_1_3_rotat" type = "continuous">
+    <parent link = "cyl_1"/>
+    <child link = "cyl_3"/>
+    <origin xyz = "0 0 0.85" rpy = "0 0 0"/>
+    <axis xyz = "1 0 0"/>
+</joint>
+<joint name="sphere1rod" type = "fixed">
+    <parent link = "cyl_3"/>
+    <child link ="sphere1"/>
+    <origin xyz ="0 0 0" rpy ="0 0 0"/>
+</joint>
+<joint name="sphere2rod" type = "fixed">
+    <parent link = "cyl_3"/>
+    <child link ="sphere2"/>
+    <origin xyz ="0 0 0" rpy ="0 0 0"/>
+</joint>
+</robot>

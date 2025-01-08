@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-9b7d7db254846aa89395.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "sensor_cpp_interface__py",
+					"jsonFile" : "directory-sensor_cpp_interface__py-6d0ad1151d9a6b2edfa6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/vd/my_ws/build/sensor_cpp_interface/sensor_cpp_interface__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "sensor_cpp_interface",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_sensor_cpp_interface_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_sensor_cpp_interface_egg-66ea820f33c8952b7cf3.json",
+					"name" : "ament_cmake_python_build_sensor_cpp_interface_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_sensor_cpp_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_sensor_cpp_interface-80935fd183e77bb378cd.json",
+					"name" : "ament_cmake_python_copy_sensor_cpp_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensor_cpp_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensor_cpp_interface-a2918d36d951a3d2cffb.json",
+					"name" : "sensor_cpp_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensor_cpp_interface__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensor_cpp_interface__cpp-de7904482a0842f7cfb5.json",
+					"name" : "sensor_cpp_interface__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "sensor_cpp_interface__py::@8fbdbbe86969dde45951",
+					"jsonFile" : "target-sensor_cpp_interface__py-ae3932b5c66790fa0608.json",
+					"name" : "sensor_cpp_interface__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensor_cpp_interface__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensor_cpp_interface__rosidl_generator_c-6e3425f00445689e548c.json",
+					"name" : "sensor_cpp_interface__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensor_cpp_interface__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensor_cpp_interface__rosidl_generator_py-56ce025eb82b830f0774.json",
+					"name" : "sensor_cpp_interface__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensor_cpp_interface__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensor_cpp_interface__rosidl_typesupport_c-70a72ba95e8c814a2ade.json",
+					"name" : "sensor_cpp_interface__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensor_cpp_interface__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensor_cpp_interface__rosidl_typesupport_c__pyext-e2515965813a6cdbf2ef.json",
+					"name" : "sensor_cpp_interface__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensor_cpp_interface__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensor_cpp_interface__rosidl_typesupport_cpp-e969ccf190ace4504d88.json",
+					"name" : "sensor_cpp_interface__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensor_cpp_interface__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensor_cpp_interface__rosidl_typesupport_fastrtps_c-85dd53daeaa55105c62a.json",
+					"name" : "sensor_cpp_interface__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensor_cpp_interface__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensor_cpp_interface__rosidl_typesupport_fastrtps_c__pyext-af263834bef868cd7272.json",
+					"name" : "sensor_cpp_interface__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensor_cpp_interface__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensor_cpp_interface__rosidl_typesupport_fastrtps_cpp-2298c7701d749de84453.json",
+					"name" : "sensor_cpp_interface__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensor_cpp_interface__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensor_cpp_interface__rosidl_typesupport_introspection_c-c3c4e217b6a5c0660d64.json",
+					"name" : "sensor_cpp_interface__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensor_cpp_interface__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensor_cpp_interface__rosidl_typesupport_introspection_c__pyext-c17693a36b62042be9ce.json",
+					"name" : "sensor_cpp_interface__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensor_cpp_interface__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensor_cpp_interface__rosidl_typesupport_introspection_cpp-a4106aef3e84a18c41bb.json",
+					"name" : "sensor_cpp_interface__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensor_cpp_interface_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensor_cpp_interface_uninstall-96b4d7ab7a48107a15df.json",
+					"name" : "sensor_cpp_interface_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-84e69f25b15a523a5242.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/vd/my_ws/build/sensor_cpp_interface",
+		"source" : "/home/vd/my_ws/src/sensor_cpp_interface"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
